@@ -1,0 +1,21 @@
+{
+  "name": "code-relay",
+  "version": "0.1.0",
+  "description": "CLI tool to apply and undo code snippets by token, bridging chat and source code.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "code-relay": "./dist/index.js"
+  },
+  "keywords": ["cli", "chatgpt", "code", "token", "automation"],
+  "author": "Marc Noon",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^18.0.0"
+  }
+}
